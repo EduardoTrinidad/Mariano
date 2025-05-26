@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f6f8;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #d81e05;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.about, .values {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.about h2, .values h2, .gallery h2 {
+  margin-bottom: 20px;
+  color: #d81e05;
+}
+
+.values ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.gallery .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 20px 0;
+}
